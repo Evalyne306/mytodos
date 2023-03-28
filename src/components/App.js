@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     // auto-login
-    fetch("https://todosendpoint.onrender.com/user/login/check").then((r) => {
+    fetch("https://td-e464.onrender.com/user/login/check").then((r) => {
       
       if (r.ok) {
         r.json().then((user) => setUser(user));
