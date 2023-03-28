@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NavBar({ user, setUser }) {
   function handleLogoutClick() {
-    fetch("/users/logout", { method: "DELETE" }).then((r) => {
+    fetch("https://todosendpoint.onrender.com", { method: "DELETE" }).then((r) => {
       if (r.ok) {
         setUser(null);
       }

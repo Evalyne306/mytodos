@@ -51,7 +51,7 @@ function TodoList() {
 
   const handleDelete = (id) => {
     axios
-      .delete(`/todos/${id}`)
+      .delete(`https://todosendpoint.onrender.com/${id}`)
       .then((response) => {
         setTodos((prevState) => prevState.filter((todo) => todo._id !== id));
       })
