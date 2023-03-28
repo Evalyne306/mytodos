@@ -4,6 +4,9 @@ This is a simple Todo App that allows users to create, update, and delete todo i
 # Getting Started
 To get started with the app, you will need to follow these steps:
 
+##Endpoints 
+    Backend : [https://todosendpoint.onrender.com]
+    Frontend : [https://mytodos-98js.vercel.app/]
 ## Prerequisites
 You will need to have the following installed on your computer:
 
@@ -11,10 +14,11 @@ Node.js
 NPM
 Ruby
 Rails
+
 ## Installing
 Clone this repository to your local machine:
 
-    git clone https://github.com/your-username/todo-app.git
+    git clone git@github.com:Evalyne306/todos.git
 
 ## Navigate to the client directory and install the necessary packages:
 
