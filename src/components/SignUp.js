@@ -7,7 +7,7 @@ function SignUp({ setUser }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("/users", {  // Changed the endpoint to register
+    fetch("https://todosendpoint.onrender.com/users", {  // Changed the endpoint to register
       method: "POST",
       headers: {
         "Content-Type": "application/json",

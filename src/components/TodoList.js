@@ -40,7 +40,7 @@ function TodoList() {
 
   useEffect(() => {
     axios
-      .get("/todos")
+      .get("https://todosendpoint.onrender.com/todos")
       .then((response) => {
         setTodos(response.data.data);
       })
@@ -51,7 +51,7 @@ function TodoList() {
 
   const handleDelete = (id) => {
     axios
-      .delete(`/todos/${id}`)
+      .delete(`https://todosendpoint.onrender.com/todos/${id}`)
       .then((response) => {
         setTodos((prevState) => prevState.filter((todo) => todo._id !== id));
       })
