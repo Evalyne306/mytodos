@@ -98,7 +98,7 @@ function TodoForm() {
   function handleSubmit(e) {
     e.preventDefault();
     axios
-      .post("https://todosendpoint.onrender.com", {
+      .post("/todos", {
         title,
         description,
         status,
